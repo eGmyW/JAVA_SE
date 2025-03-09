@@ -1,5 +1,7 @@
 package com.liron;
 
+import org.junit.Test;
+
 /**
  * Hello world!
  *
@@ -10,4 +12,8 @@ public class App {
         System.out.println( "Hello World!" );
     }
 
+    @Test
+    public void method(){
+        System.out.println( "Hello World!" );
+    }
 }
